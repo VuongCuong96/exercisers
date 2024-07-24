@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    background-color: #91e9e6;
+}
+
+.container {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.container .container-box {
+    position: relative;
+    top: 250px;
+    font-size: 30px;
+    background-color: #d85959;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 50%;
+    color: #d85959;
+}
+#font {
+    padding: 10px;
+    border-radius: 30%;
+}
+#font:hover {
+    color: black;
+    cursor: pointer;
+    transform: scale(2,2);
+}
